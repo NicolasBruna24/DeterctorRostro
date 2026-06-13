@@ -27,3 +27,30 @@ Este proyecto resuelve el problema de identificar y registrar rostros utilizando
 - **Razón**: Para almacenar los datos del rostro (vectores) en una base de datos, permitiendo así identificar a las personas basándose en sus características faciales.
 
 Este proyecto utiliza estas tecnologías para proporcionar un sistema robusto y eficiente de reconocimiento facial que puede ser utilizado en diversos contextos, desde seguridad hasta personalización de experiencias digitales.
+
+
+## 6.Instrucciones de uso
+
+- Clonar el proyecto y entrar a la carpeta
+```
+git clone https://github.com/NicolasBruna24/DeterctorRostro.git
+cd DeterctorRostro
+```
+- Crear y activar su propio entorno virtual
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+- Instalar todo en un solo segundo
+
+```
+pip install -r requirements.txt
+```
+- Descargar el predictor de rostros
+```
+wget https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat
+```
+- ¡Ejecutar!
+```
+python main.py
+```
