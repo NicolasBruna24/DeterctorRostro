@@ -4,7 +4,7 @@ from imutils import face_utils
 
 # Inicializar el detector de rostros y la función para extraer características faciales
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("ruta_correcta/shape_predictor_68_face_landmarks.dat")
 
 def capture_and_process():
     # Inicializar la cámara
